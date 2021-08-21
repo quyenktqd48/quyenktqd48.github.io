@@ -1,0 +1,99 @@
+/* PC */
+@media ( min-width: 1024px) {
+
+}
+/* tablet */
+@media (min-width: 740px) and (max-width 1023px) {
+
+}
+/* mobile */
+@media  (max-width: 739px) {
+    #header{
+        overflow: hidden;
+    }
+    .nav>ul>li{
+        display: block;
+    }
+    .nav>ul{
+        display:block;
+    }
+
+
+    .slider__text{
+        display:none;
+    }
+    .nav>ul>li:first-child{
+        display:inline-block;
+        width: 80%;
+    }
+    .nav_icon{
+        position: absolute;
+        z-index: 3;
+        top:0;
+        right:0;
+    }
+    
+    .nav_icon .search{
+        display:none;
+    }
+    .nav_icon .menu{
+        display:block;
+    }
+    .nav_icon .menu:hover{
+        background: #ccc;
+        color: #000;
+    }
+    .subnav{
+        width:100%;
+        background-color: #000;
+    }
+    .subnav a{
+        color: #fff;
+        line-height: 46.5px;
+        padding-left: 40px;
+
+    }
+    #band_member{
+        flex-direction: column;
+    }
+    .member{
+    width:100%;
+    }
+    .tour__place{
+        flex-direction: column;
+    }
+    .place{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .tour__form li{
+        padding: 16px 16px;
+    }
+    .buy_tickets{
+        width: 100%;
+        padding: 16px 16px;
+    }
+    .contact__body{
+        flex-direction: column;
+    }
+    .contact__info i{
+        line-height: 2;
+    }
+    .contact__form input{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 16px 16px;
+    }
+    .contact_button {
+        width: 100%;
+        padding: 16px 16px;
+    }
+    .footer__icon i{
+        margin-left: 20px;
+        font-size: 32px;
+    }
+    .footer__icon{
+        margin-bottom: 30px;
+    }
+
+}
